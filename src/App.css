@@ -79,3 +79,16 @@ h1{
     padding: 20px;
     font-size: 40px
 }
+@media screen and (max-width:1400px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
